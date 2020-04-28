@@ -1,19 +1,13 @@
 import React from "react";
+import types from "../enum/types";
 
-const types = {
-  EQUILATERO: "EQUILATERO",
-  ESCALENO: "ESCALENO",
-  ISOSCELES: "ISOSCELES",
-  INVALIDO: "INVALIDO",
-};
-
-function triangleIdentifier(a, b, c) {
+function TriangleIdentifier(a, b, c) {
   if (a < b + c && b < a + c && c < b + a) {
-    if (a === b && b === c) return types.EQUILATERO;
-    if (a !== b && a !== c && b !== c) return types.ESCALENO;
+    if (a === b && b === c) return types.EQUILATERAL;
+    if (a !== b && a !== c && b !== c) return types.SCALENE;
     return types.ISOSCELES;
   }
-  return types.INVALIDO;
+  return types.INVALID;
 }
 
-export default triangleIdentifier;
+export default TriangleIdentifier;

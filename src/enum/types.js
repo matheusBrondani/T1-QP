@@ -5,6 +5,7 @@ const types = {
   SCALENE: "ESCALENO",
   ISOSCELES: "ISOSCELES",
   INVALID: "INVALIDO",
+  NOTTRIANGLE: "NÃO É TRIANGULO",
 };
 
 export default types;

@@ -8,7 +8,7 @@ To run the tests for this project it is necessary to:
 
 - Clone the repository
 - Run the command "yarn install", to install the dependencies
-- Execute the command "yarn test.", To execute all tests of the project
+- Execute the command "yarn test . ", To execute all tests of the project
 
 ## Available Scripts
 

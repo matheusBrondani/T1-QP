@@ -3,6 +3,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## T1-QP
+Dependencies:
+Node > 12.14.1
 
 To run the tests for this project it is necessary to:
 

@@ -1,4 +1,14 @@
+![Continuous Integration](https://github.com/matheusBrondani/T1-QP/workflows/Continuous%20Integration/badge.svg?branch=master&event=push)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## T1-QP
+
+To run the tests for this project it is necessary to:
+
+- Clone the repository
+- Run the command "yarn install", to install the dependencies
+- Execute the command "yarn test.", To execute all tests of the project
 
 ## Available Scripts
 
